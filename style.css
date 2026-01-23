@@ -1,0 +1,153 @@
+body{margin: 0;}
+
+#header {
+ margin: 0;
+width: 100vw;
+height:auto;
+text-align:centre;
+background-color: yellowgreen;
+font-size:xx-large;
+justify-content:center;
+align-items:centre;
+display:flex;
+vertical-align:center;
+
+}
+
+#language {
+ margin:0;
+ height:auto;
+ width: 50%;
+ border: 2px solid black;
+ text-align: centre;
+ font-size: xx-large;
+ background-color: blueviolet;
+ 
+}
+
+#member-slider {
+
+width: 100%;
+height: auto;  
+}
+
+#member-container {
+ display: flex;
+ width: 100%;
+ height: auto;
+ overflow-x: scroll;
+ overflow-y: hidden;
+}
+
+.member-card {
+ flex:auto;
+ width:100%;
+ height: auto;
+ margin: 1vw;
+ background-color: coral;
+ border: 2px solid black;
+ border-radius: 15px;
+}
+
+.member-card img {
+ height: 80%;
+ width: 100%;
+ border-radius: 15px;
+}
+
+.member-card p {
+  
+ text-align: centre;
+ font-size: large;
+ margin: 0%;
+ display: flex;
+ justify-content: center;
+}
+
+#main1{
+ background-color: maroon;
+ width:96vw;
+ height: 70vh;
+ border: 5px solid black;
+ margin: 1vw;
+ border-radius: 25px;
+ overflow-y: hidden;
+}
+
+#main12 {
+ display:flex;
+ height: auto;
+ width: 94vw;
+ background-color: antiquewhite;
+ height:20vh;
+ margin:7px;
+ border: 3px white solid;
+ border-radius:20px;
+}
+
+#artimage {
+ display: flex;
+ position:relative;
+ align-self: centre;
+ background-color: skyblue;
+ height:20vh;
+ width: 38vw;
+ border-radius: 20px;
+}
+
+#article{
+ padding: 10px;
+ display:flex;
+ background-color: greenyellow;
+ height :19vh;
+ width:55vw;
+ font-size:xx-large;
+ text-overflow: ellipsis;
+ overflow-wrap:break-word;
+ word-wrap: break-word;
+ border-radius:20px;
+ margin-left: 1vw;
+}
+
+#eventdate{
+ position:relative;
+ justify-content: flex-end;
+ background-color: black;
+ height:1vh;
+ width: 38vw;
+}
+
+#main2{
+ background-color:green;
+ width:96vw;
+ height: 70vh;
+ border: 5px solid black;
+ margin: 1vw;
+ border-radius: 25px;
+ overflow-y:scroll;
+ display:flex;
+}
+
+#event {
+  display:block;
+  font-size: xx-large;
+  text-align: centre;
+  background-color: indianred;
+  height:5vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border:2px solid black;
+}
+
+#vid {
+  width:45%;
+  height:20%;
+  background-color:blue;
+  margin:1vh;
+  margin-top: 6vh;
+  position: relative;
+  display: inline-block;
+}
+
+
